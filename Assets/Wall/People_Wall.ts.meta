@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: e59adb208db2acc4a83de4148efaa06c
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\n//\u0133\uFFFD\uFFFD\uFFFD\u037F\uFFFD
+    \uFFFD\uFFFD\u0223\uFFFD\u06FF\uFFFD\uFFFD\u03F1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD
+    \u01AE\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD\u0169\uFFFD\uFFFD\u01AE\\r\\nclass
+    People_Wall extends ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    OnTriggerEnter(col)
+    {\\r\\n        col.transform.SetParent(this.parent_Wall.transform);\\r\\n   
+    }\\r\\n    OnTriggerExit(col) {\\r\\n        col.transform.SetParent(null);\\r\\n   
+    }\\r\\n}\\r\\nexports.default = People_Wall;\\r\\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGVvcGxlX1dhbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJQZW9wbGVfV2FsbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUdyRCxtQ0FBbUM7QUFDbkMsTUFBcUIsV0FBWSxTQUFRLHFDQUFxQjtJQUsxRCxjQUFjLENBQUMsR0FBYTtRQUN4QixHQUFHLENBQUMsU0FBUyxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLFNBQVMsQ0FBQyxDQUFDO0lBQ3hELENBQUM7SUFFRCxhQUFhLENBQUMsR0FBYTtRQUN2QixHQUFHLENBQUMsU0FBUyxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUNsQyxDQUFDO0NBZUo7QUExQkQsOEJBMEJDIn0=\",\"assetPath\":\"Assets/Wall/People_Wall.ts\",\"manifest\":{\"properties\":[{\"assembly\":\"UnityEngine.CoreModule\",\"name\":\"parent_Wall\",\"type\":\"UnityEngine.GameObject\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]}],\"name\":\"People_Wall\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: 25e36f4206f5e2bb5823961e329d5ad9
+  onlyWriteTrigger: 0

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: b9dfd9c760df5c547943cc8f98d07bc4
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass Fruit_Pre extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    OnTriggerEnter(col) {\r\n        if (col.gameObject.layer == 20) {\r\n           
+    this.fruit1.SetActive(true);\r\n            this.fruit2.SetActive(true);\r\n           
+    this.fruit3.SetActive(true);\r\n            this.fruit4.SetActive(true);\r\n           
+    this.boxCol.enabled = false;\r\n        }\r\n    }\r\n}\r\nexports.default =
+    Fruit_Pre;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRnJ1aXRfUHJlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiRnJ1aXRfUHJlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUErSDtBQUcvSCxNQUFxQixTQUFVLFNBQVEscUNBQXFCO0lBU3hELGNBQWMsQ0FBQyxHQUFhO1FBQ3hCLElBQUksR0FBRyxDQUFDLFVBQVUsQ0FBQyxLQUFLLElBQUksRUFBRSxFQUFFO1lBQzVCLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1lBQzVCLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1lBQzVCLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1lBQzVCLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1lBQzVCLElBQUksQ0FBQyxNQUFNLENBQUMsT0FBTyxHQUFHLEtBQUssQ0FBQztTQUMvQjtJQUNMLENBQUM7Q0FFSjtBQW5CRCw0QkFtQkMifQ==","assetPath":"Assets/Wall/Fruit_Pre.ts","manifest":{"properties":[{"assembly":"UnityEngine.PhysicsModule","name":"boxCol","type":"UnityEngine.BoxCollider","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"fruit1","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"fruit2","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"fruit3","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"fruit4","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Fruit_Pre","description":""},"isCompiled":true}'
+  typescriptHash: 49cb68f131164bbd2694173ea3208b32
+  onlyWriteTrigger: 0

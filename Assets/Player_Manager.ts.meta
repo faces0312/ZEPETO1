@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 2952203dfbd5bff45abfe19e78fe9853
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    Player_Manager extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(col)
+    {\r\n        if (col.gameObject.layer == 20) {\r\n            col.enabled = false;\r\n           
+    col.transform.position = this.respawn1.transform.position;\r\n            col.enabled
+    = true;\r\n        }\r\n    }\r\n}\r\nexports.default = Player_Manager;\r\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGxheWVyX01hbmFnZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJQbGF5ZXJfTWFuYWdlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUdyRCxNQUFxQixjQUFlLFNBQVEscUNBQXFCO0lBSzdELGNBQWMsQ0FBQyxHQUFhO1FBQ3hCLElBQUksR0FBRyxDQUFDLFVBQVUsQ0FBQyxLQUFLLElBQUksRUFBRSxFQUFFO1lBQzVCLEdBQUcsQ0FBQyxPQUFPLEdBQUcsS0FBSyxDQUFDO1lBQ3BCLEdBQUcsQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztZQUMxRCxHQUFHLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQztTQUN0QjtJQUNMLENBQUM7Q0FrQ0o7QUE3Q0QsaUNBNkNDIn0=","assetPath":"Assets/Player_Manager.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"respawn1","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Player_Manager","description":""},"isCompiled":true}'
+  typescriptHash: 502c07ba05b0644468d352dd35832732
+  onlyWriteTrigger: 0

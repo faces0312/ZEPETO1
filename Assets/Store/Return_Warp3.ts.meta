@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: bbc3235412b188342b2f33e2f84f144e
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    Return_Warp3 extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(col)
+    {\r\n        if (col.gameObject.layer == 20) {\r\n            col.enabled = false;\r\n           
+    col.transform.position = this.warp_Point3.transform.position;\r\n           
+    col.enabled = true;\r\n        }\r\n    }\r\n}\r\nexports.default = Return_Warp3;\r\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmV0dXJuX1dhcnAzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiUmV0dXJuX1dhcnAzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBR3JELE1BQXFCLFlBQWEsU0FBUSxxQ0FBcUI7SUFJM0QsY0FBYyxDQUFDLEdBQWE7UUFDeEIsSUFBSSxHQUFHLENBQUMsVUFBVSxDQUFDLEtBQUssSUFBSSxFQUFFLEVBQUU7WUFHNUIsR0FBRyxDQUFDLE9BQU8sR0FBRyxLQUFLLENBQUM7WUFDcEIsR0FBRyxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLFdBQVcsQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDO1lBQzdELEdBQUcsQ0FBQyxPQUFPLEdBQUcsSUFBSSxDQUFDO1NBRXRCO0lBQ0wsQ0FBQztDQUVKO0FBZkQsK0JBZUMifQ==","assetPath":"Assets/Store/Return_Warp3.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"warp_Point3","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Return_Warp3","description":""},"isCompiled":true}'
+  typescriptHash: 58e513b71de0967bf20c660e95535aca
+  onlyWriteTrigger: 0

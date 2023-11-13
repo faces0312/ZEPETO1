@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 15d00c6a2ff08ba4780ab512941e260e
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass Moving_Die_Wall extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    Start() {\r\n    }\r\n    FixedUpdate() {\r\n        if (this.delay
+    > 0) {\r\n            this.delay -= UnityEngine_1.Time.deltaTime;\r\n           
+    return;\r\n        }\r\n        this.fraction = (UnityEngine_1.Mathf.Sin(this.timer
+    * UnityEngine_1.Mathf.Deg2Rad) + 1) / 2;\r\n        this.transform.position =
+    UnityEngine_1.Vector3.Lerp(this.startPos.transform.position, this.endPos.transform.position,
+    this.fraction);\r\n        this.timer += UnityEngine_1.Time.deltaTime * this.moveSpeed;\r\n   
+    }\r\n}\r\nexports.default = Moving_Die_Wall;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTW92aW5nX0RpZV9XYWxsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiTW92aW5nX0RpZV9XYWxsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUFvRjtBQUVwRixNQUFxQixlQUFnQixTQUFRLHFDQUFxQjtJQVU5RCxLQUFLO0lBRUwsQ0FBQztJQUVELFdBQVc7UUFFUCxJQUFJLElBQUksQ0FBQyxLQUFLLEdBQUcsQ0FBQyxFQUFFO1lBQ2hCLElBQUksQ0FBQyxLQUFLLElBQUksa0JBQUksQ0FBQyxTQUFTLENBQUM7WUFDN0IsT0FBTztTQUNWO1FBRUQsSUFBSSxDQUFDLFFBQVEsR0FBRyxDQUFDLG1CQUFLLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxLQUFLLEdBQUcsbUJBQUssQ0FBQyxPQUFPLENBQUMsR0FBRyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUM7UUFDaEUsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcscUJBQU8sQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBQyxTQUFTLENBQUMsUUFBUSxFQUFFLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLFFBQVEsRUFBRSxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUM7UUFDeEgsSUFBSSxDQUFDLEtBQUssSUFBSSxrQkFBSSxDQUFDLFNBQVMsR0FBRyxJQUFJLENBQUMsU0FBUyxDQUFDO0lBQ2xELENBQUM7Q0FFSjtBQTFCRCxrQ0EwQkMifQ==","assetPath":"Assets/Wall/Moving_Die_Wall.ts","manifest":{"properties":[{"assembly":"mscorlib","name":"moveSpeed","type":"System.Single","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"startPos","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"endPos","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"fraction","type":"System.Single","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"timer","type":"System.Single","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"delay","type":"System.Single","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Moving_Die_Wall","description":""},"isCompiled":true}'
+  typescriptHash: 72a0a576d7b5440fc6d422c58d456186
+  onlyWriteTrigger: 0

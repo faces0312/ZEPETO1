@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: d2bbd771edfca154dacf96a147d1b23b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass Fruit3 extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    Start() {\r\n        this.transform.position = this.monkey.transform.position;\r\n       
+    this.mesh.enabled = false;\r\n        this.capsule.enabled = false;\r\n       
+    this.Invoke(\"Find_Player\", 9);\r\n    }\r\n    Find_Player() {\r\n        this.player
+    = UnityEngine_1.GameObject.FindObjectOfType($typeof(UnityEngine_1.CharacterController));\r\n       
+    this.transform.position = this.monkey.transform.position;\r\n        this.endpos
+    = this.player.transform.position;\r\n        this.stpos = this.transform.position;\r\n       
+    this.is_flying = true;\r\n        this.mesh.enabled = true;\r\n        this.capsule.enabled
+    = true;\r\n        this.Invoke(\"Dis_Mesh\", 8);\r\n        this.Invoke(\"Find_Player\",
+    12);\r\n    }\r\n    Dis_Mesh() {\r\n        this.is_flying = false;\r\n       
+    this.mesh.enabled = false;\r\n        this.capsule.enabled = false;\r\n    }\r\n   
+    Update() {\r\n        if (this.is_flying == true) {\r\n            this.transform.position
+    = UnityEngine_1.Vector3.Slerp(this.stpos, this.endpos, 1 * UnityEngine_1.Time.deltaTime);\r\n           
+    this.stpos = this.transform.position;\r\n        }\r\n    }\r\n}\r\nexports.default
+    = Fruit3;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRnJ1aXQzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiRnJ1aXQzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUF5SztBQUV6SyxNQUFxQixNQUFPLFNBQVEscUNBQXFCO0lBWXJELEtBQUs7UUFDRCxJQUFJLENBQUMsU0FBUyxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7UUFDekQsSUFBSSxDQUFDLElBQUksQ0FBQyxPQUFPLEdBQUcsS0FBSyxDQUFDO1FBQzFCLElBQUksQ0FBQyxPQUFPLENBQUMsT0FBTyxHQUFHLEtBQUssQ0FBQztRQUU3QixJQUFJLENBQUMsTUFBTSxDQUFDLGFBQWEsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUNsQyxDQUFDO0lBR0QsV0FBVztRQUNQLElBQUksQ0FBQyxNQUFNLEdBQUcsd0JBQVUsQ0FBQyxnQkFBZ0IsU0FBQyxpQ0FBbUIsRUFBRyxDQUFDO1FBRWpFLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztRQUN6RCxJQUFJLENBQUMsTUFBTSxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztRQUM3QyxJQUFJLENBQUMsS0FBSyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDO1FBRXJDLElBQUksQ0FBQyxTQUFTLEdBQUcsSUFBSSxDQUFDO1FBQ3RCLElBQUksQ0FBQyxJQUFJLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQztRQUN6QixJQUFJLENBQUMsT0FBTyxDQUFDLE9BQU8sR0FBRyxJQUFJLENBQUM7UUFFNUIsSUFBSSxDQUFDLE1BQU0sQ0FBQyxVQUFVLEVBQUUsQ0FBQyxDQUFDLENBQUM7UUFDM0IsSUFBSSxDQUFDLE1BQU0sQ0FBQyxhQUFhLEVBQUUsRUFBRSxDQUFDLENBQUM7SUFDbkMsQ0FBQztJQUVELFFBQVE7UUFDSixJQUFJLENBQUMsU0FBUyxHQUFHLEtBQUssQ0FBQztRQUN2QixJQUFJLENBQUMsSUFBSSxDQUFDLE9BQU8sR0FBRyxLQUFLLENBQUM7UUFDMUIsSUFBSSxDQUFDLE9BQU8sQ0FBQyxPQUFPLEdBQUcsS0FBSyxDQUFDO0lBQ2pDLENBQUM7SUFFRCxNQUFNO1FBQ0YsSUFBSSxJQUFJLENBQUMsU0FBUyxJQUFJLElBQUksRUFBRTtZQUN4QixJQUFJLENBQUMsU0FBUyxDQUFDLFFBQVEsR0FBRyxxQkFBTyxDQUFDLEtBQUssQ0FBQyxJQUFJLENBQUMsS0FBSyxFQUFFLElBQUksQ0FBQyxNQUFNLEVBQUUsQ0FBQyxHQUFHLGtCQUFJLENBQUMsU0FBUyxDQUFDLENBQUM7WUFDckYsSUFBSSxDQUFDLEtBQUssR0FBRyxJQUFJLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztTQUN4QztJQUNMLENBQUM7Q0FFSjtBQWpERCx5QkFpREMifQ==","assetPath":"Assets/Wall/Fruit3.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"monkey","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.PhysicsModule","name":"player","type":"UnityEngine.CharacterController","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"mesh","type":"UnityEngine.MeshRenderer","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.PhysicsModule","name":"capsule","type":"UnityEngine.CapsuleCollider","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"is_flying","type":"System.Boolean","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"stpos","type":"UnityEngine.Vector3","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"endpos","type":"UnityEngine.Vector3","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Fruit3","description":""},"isCompiled":true}'
+  typescriptHash: 01993dd66106ff929224c1abef167e7e
+  onlyWriteTrigger: 0

@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 5859e8a9265542a42983f9efb35a25c5
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    Warp_Hanok extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(col)
+    {\r\n        if (col.gameObject.layer == 20) {\r\n            col.enabled = false;\r\n           
+    col.transform.position = this.warp_Hanok.transform.position;\r\n            col.enabled
+    = true;\r\n        }\r\n    }\r\n}\r\nexports.default = Warp_Hanok;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiV2FycF9IYW5vay5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIldhcnBfSGFub2sudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFHckQsTUFBcUIsVUFBVyxTQUFRLHFDQUFxQjtJQUl6RCxjQUFjLENBQUMsR0FBYTtRQUN4QixJQUFJLEdBQUcsQ0FBQyxVQUFVLENBQUMsS0FBSyxJQUFJLEVBQUUsRUFBRTtZQUM1QixHQUFHLENBQUMsT0FBTyxHQUFHLEtBQUssQ0FBQztZQUNwQixHQUFHLENBQUMsU0FBUyxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsVUFBVSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7WUFDNUQsR0FBRyxDQUFDLE9BQU8sR0FBRyxJQUFJLENBQUM7U0FDdEI7SUFDTCxDQUFDO0NBRUo7QUFaRCw2QkFZQyJ9","assetPath":"Assets/Chapter3/Warp_Hanok.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"warp_Hanok","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Warp_Hanok","description":""},"isCompiled":true}'
+  typescriptHash: 4db6609115b55a722d5d12d0d0d17ae9
+  onlyWriteTrigger: 0

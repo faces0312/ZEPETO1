@@ -1,0 +1,287 @@
+[World Settings]
+world id             com.oneproject.jumpworld
+version              0.3                 
+max clients          8                   
+orientation          horizontal          
+disable invite       false               
+disable room list    false               
+disable private room false               
+
+[Build Manifest]
+[scenes]
+42 mb                assets/chapter1.unity
+[assets]
+3 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_ziggle.anim
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_off.anim
+17 kb                assets/low poly environment starter kit/source/meshes/other/bush_1.fbx
+13 kb                assets/simplelowpolynature/models/rock2.fbx
+3 kb                 assets/brokenvector/lowpolytreepack/materials/cold.mat
+3 kb                 assets/emaceart/free meadows/texture/colorsheet.png
+947 kb               assets/museum/kakaotalk_20221127_204303293_09.jpg
+35 kb                packages/zepeto.character.controller/runtime/_resources/inputactions/zepetoinputcontrol.inputactions
+600 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landing_slight.anim
+14 kb                assets/simplelowpolynature/models/grass2.fbx
+369 kb               assets/addons/mg3d_food/cherry.fbx
+1 mb                 assets/low poly environment starter kit/source/textues/grass.png
+162 kb               assets/emaceart/free meadows/meshes/em_tree1b.fbx
+180 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_1.fbx
+8 kb                 assets/emaceart/free meadows/prefabs/trees/em_tree3b_pre.prefab
+19 kb                assets/greyroadstudio/lowpolytreepack/models/rock03.fbx
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/walk.anim
+2 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/texture/materials/ct_object_base_01.mat
+69 kb                assets/low poly environment starter kit/source/meshes/terrains/mountain_1.fbx
+24 kb                assets/emaceart/free meadows/meshes/em_rock02c.fbx
+2 kb                 assets/museum/paint9.mat
+2 kb                 assets/display room/prefabs/3d models/lamps/prefabs/materials/lamp_10mat.mat
+84 kb                packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_tile_002.png
+2 kb                 assets/mymaterial/mountaingreen01.mat
+2 kb                 assets/museum/paint1.mat
+17 kb                assets/simplelowpolynature/models/log.fbx
+23 kb                assets/3le low poly cloud pack/models/cloud_cumulus.fbx
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/jump_move.anim
+27 kb                packages/zepeto.character.controller/runtime/_resources/prefabs/uicontroller_touchpad_horizontal.prefab
+77 kb                assets/low poly environment starter kit/source/meshes/trees/tree_6.fbx
+125 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_2.fbx
+21 kb                packages/zepeto.buildit.common/common/world_wd_commons/data/texture/wd_chocolate.png
+574 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landing_roll.anim
+25 kb                packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_tile_007.png
+27 kb                packages/zepeto.character.controller/runtime/_resources/prefabs/uicontroller_touchpad_vertical.prefab
+1 kb                 assets/3le low poly cloud pack/models/materials/clouds_cumulonimbus.mat
+1 kb                 packages/com.unity.inputsystem/inputsystem/editor/icons/inputsystemuiinputmodule@64.png
+16 kb                packages/zepeto.buildit.common/common/cooltime_commons/data/texture/ct_boxes_noise_01.png
+1 mb                 assets/display room/textures/cubemapnot hdr.png
+129 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_10.fbx
+1 mb                 assets/museum/kakaotalk_20221127_204303293_12.jpg
+14 kb                assets/simplelowpolynature/models/rock10.fbx
+13 kb                assets/simplelowpolynature/models/rock1.fbx
+2 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/texture/materials/ct_object_glassyellow_01.mat
+225 kb               packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_tile_004.png
+6 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/build it unlit uv scroll.shader
+27 kb                assets/emaceart/free meadows/meshes/em_rock01c.fbx
+60 kb                assets/emaceart/free meadows/meshes/em_stone1.fbx
+52 kb                assets/low poly environment starter kit/source/meshes/rocks/stone_12.fbx
+2 kb                 assets/simplelowpolynature/prefabs/rock3.prefab
+442 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jump_move.anim
+2 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/texture/materials/ct_boxes_translucence_01.mat
+4 kb                 assets/low poly environment starter kit/prefabs/standard/terrains/mountain 2.prefab
+19 kb                assets/greyroadstudio/lowpolytreepack/models/pinetree.fbx
+4 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/texture/materials/build it water plane no light.mat
+15 kb                assets/simplelowpolynature/models/cloud1.fbx
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/gesture.anim
+258 kb               assets/addons/mg3d_food/olive.fbx
+18 kb                packages/zepeto.character.controller/runtime/_resources/animatorcontroller/zepetoanimator.controller
+149 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_8.fbx
+1 mb                 assets/museum/kakaotalk_20221127_204303293_02.jpg
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_window_001.mat
+164 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_4.fbx
+2 kb                 assets/mobiledepthwater/models/materials/no name.mat
+64 kb                assets/display room/prefabs/3d models/lamps/textures/lamp10_metal_rough.tga
+27 kb                assets/mobiledepthwater/models/boat.fbx
+2 kb                 assets/naturestarterkit2/materials/bark01.mat
+13 kb                assets/simplelowpolynature/models/rock12.fbx
+2 kb                 assets/mymaterial/out_mount_mate.mat
+5 kb                 assets/low poly environment starter kit/source/material/standard/bush.mat
+20 kb                packages/zepeto.buildit.common/common/cooltime_commons/data/texture/ct_object_base_01.png
+678 kb               assets/museum/kakaotalk_20221127_204303293_04.jpg
+5 kb                 assets/low poly environment starter kit/source/material/standard/grass.mat
+3 mb                 assets/display room/textures/wood_floor_albedo.tga
+1 kb                 assets/simplelowpolynature/materials/cloudmat.mat
+126 kb               assets/low poly free vegetation kit/meshes/flowers.fbx
+560 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/idle.anim
+14 kb                packages/zepeto.buildit.common/common/1_mattex/data/fx_master_addtive_two.shader
+3 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/builditmorp.shader
+784 kb               assets/museum/kakaotalk_20221127_204303293_08.jpg
+2 kb                 assets/museum/materials/kakaotalk_20221027_202551184_03.mat
+1 kb                 assets/simplelowpolynature/materials/rockmat.mat
+2 kb                 assets/museum/paint_test4.mat
+1 kb                 assets/3le low poly cloud pack/models/materials/clouds_swirls.mat
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_ground.mat
+13 kb                assets/simplelowpolynature/models/treedead2.fbx
+227 b                assets/brokenvector/lowpolytreepack/textures/colorsheet tree cold.png
+18 kb                assets/greyroadstudio/lowpolytreepack/models/pinetree05.fbx
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_tile_007.mat
+2 kb                 assets/display room/materials/architecture/walls 1.mat
+295 kb               packages/zepeto.character.controller/runtime/_resources/animatorcontroller/zepetoanimatorv2.controller
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_tree.mat
+12 kb                assets/simplelowpolynature/models/rock8.fbx
+374 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/move_run_fast.anim
+828 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/move_turn.anim
+105 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_5.fbx
+3 kb                 assets/brokenvector/lowpolytreepack/materials/normal.mat
+336 kb               assets/emaceart/free meadows/meshes/em_tree2b.fbx
+2 kb                 assets/simplelowpolynature/materials/wood1mat.mat
+16 kb                assets/simplelowpolynature/shaders/simplewater.shader
+445 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/move_run.anim
+13 kb                assets/simplelowpolynature/models/rock3.fbx
+48 kb                assets/display room/prefabs/3d models/lamps/textures/lamp10_albedo.tga
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/jump_idle.anim
+3 mb                 assets/display room/textures/wood_floor_normals.tga
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_off.anim
+474 kb               assets/museum/kakaotalk_20221027_202551184_03.png
+2 kb                 packages/zepeto.buildit.common/common/world_wd_commons/data/wd_chocolate.mat
+2 kb                 assets/museum/paint_test2.mat
+10 kb                assets/low poly environment starter kit/source/material/standard/snow.mat
+544 kb               assets/new terrain 2.asset
+4 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/texture/materials/build it water no light.mat
+5 kb                 packages/zepeto.character.controller/runtime/_resources/images/touchpad_handle_icon.png
+14 kb                assets/simplelowpolynature/models/rock4.fbx
+5 kb                 packages/zepeto.character.controller/runtime/_resources/images/touchpad_jump_icon.png
+69 kb                assets/greyroadstudio/lowpolytreepack/models/tree.fbx
+26 kb                assets/mobiledepthwater/models/lakeisland.fbx
+2 kb                 assets/display room/materials/architecture/black cube.mat
+2 kb                 assets/museum/paint5.mat
+2 kb                 assets/museum/paint_test1.mat
+1 kb                 packages/zepeto.character.controller/runtime/_resources/camera/zepetocamera.prefab
+64 kb                assets/display room/textures/glassrefraction.tga
+5 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/builditstandard.shader
+186 kb               assets/3le low poly cloud pack/models/clouds_cumulonimbus.fbx
+676 kb               assets/naturestarterkit2/textures/bark01.tga
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_pinetrunk.mat
+2 kb                 assets/museum/paint10.mat
+130 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_6.fbx
+15 kb                assets/greyroadstudio/lowpolytreepack/models/rock01.fbx
+7 kb                 assets/display room/prefabs/3d models/lamps/prefabs/models/lamp 10.obj
+1 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/builditunlit.shader
+31 kb                assets/naturestarterkit2/standard assets/effects/toonshading/textures/toonlit.psd
+3 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/build it effect addictive soft.shader
+2 kb                 assets/low poly free vegetation kit/materials/color pallet.mat
+29 kb                assets/emaceart/free meadows/meshes/em_rock01b.fbx
+464 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jump_double.anim
+2 kb                 assets/simplelowpolynature/prefabs/water.prefab
+1 mb                 assets/museum/kakaotalk_20221127_204303293_14.jpg
+387 b                packages/zepeto.buildit.common/common/cooltime_commons/data/texture/ct_colormap_01.png
+3 mb                 assets/display room/textures/flare.tga
+2 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/build it select box.shader
+13 kb                packages/zepeto.character.controller/runtime/_resources/images/touchpad_handle_base.png
+14 kb                assets/simplelowpolynature/models/cloud2.fbx
+84 kb                assets/display room/font/keepcalm-medium.ttf
+2 kb                 assets/simplelowpolynature/prefabs/paddle.prefab
+582 kb               assets/museum/kakaotalk_20221127_204303293_17.jpg
+8 kb                 assets/emaceart/free meadows/prefabs/trees/em_tree2b_pre.prefab
+5 kb                 assets/low poly environment starter kit/source/material/standard/rock.mat
+2 kb                 assets/museum/paint7.mat
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/action1.anim
+152 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_11.fbx
+837 kb               assets/display room/prefabs/3d models/model.fbx
+34 kb                assets/simplelowpolynature/models/tree3.fbx
+48 kb                assets/display room/prefabs/3d models/lamps/textures/lamp10_emissive.tga
+28 kb                assets/brokenvector/lowpolytreepack/models/tree type2 03.dae
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_window_001.png
+21 kb                assets/museum/mural.prefab
+3 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_ziggle.anim
+2 kb                 assets/mymaterial/mountaingreen02.mat
+146 kb               assets/low poly environment starter kit/source/meshes/rocks/stone_7.fbx
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_on.anim
+524 b                assets/display room/shaders/lamp flare.flare
+4 kb                 assets/display room/materials/architecture/ground_wood.mat
+5 kb                 assets/low poly environment starter kit/source/material/standard/stone.mat
+4 kb                 assets/low poly environment starter kit/prefabs/standard/terrains/mountain 3.prefab
+2 kb                 assets/mymaterial/mountaingreen04.mat
+2 kb                 assets/museum/paint4.mat
+7 kb                 packages/zepeto.character.controller/runtime/_resources/animatorcontroller/uicontrollertouchpadhandleorigin.controller
+63 kb                assets/greyroadstudio/lowpolytreepack/models/oaktree.fbx
+76 kb                assets/low poly environment starter kit/source/meshes/trees/tree_4.fbx
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/action2.anim
+2 kb                 assets/low poly free vegetation kit/prefabs/vegetation/flower 1.prefab
+5 kb                 assets/low poly environment starter kit/source/material/standard/leaves 2.mat
+153 kb               assets/addons/mg3d_food/banana.fbx
+42 kb                assets/emaceart/free meadows/meshes/em_rock19.fbx
+108 kb               assets/display room/textures/grunge_specular.png
+7 kb                 packages/zepeto.character.controller/runtime/_resources/animatorcontroller/uicontrollertouchpadhandle.controller
+451 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jump_dash.anim
+2 kb                 assets/greyroadstudio/lowpolytreepack/prefabs/oaktree_leafless.prefab
+2 kb                 assets/mobiledepthwater/materials/boattop.mat
+36 kb                assets/low poly environment starter kit/source/meshes/other/grass_3.fbx
+1 kb                 assets/3le low poly cloud pack/models/materials/cloud_cumulus.mat
+489 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/move_walk_fast.anim
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_tile_006.mat
+3 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/charactershadow.prefab
+12 kb                packages/zepeto.character.controller/runtime/_resources/images/touchpad_jump_base.png
+382 kb               assets/museum/kakaotalk_20221027_202551184_02.png
+1 kb                 assets/display room/materials/architecture/walls.mat
+795 b                packages/zepeto.buildit.common/common/cooltime_commons/data/build it effect addictive.shader
+21 kb                assets/3le low poly cloud pack/models/cloud_swirls.fbx
+12 kb                assets/simplelowpolynature/models/rock7.fbx
+1 mb                 assets/museum/kakaotalk_20221127_204303293_01.jpg
+2 kb                 assets/display room/materials/architecture/glass 1.mat
+3 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_window_001_a.png
+1 mb                 assets/museum/kakaotalk_20221127_204303293_15.jpg
+8 kb                 assets/emaceart/free meadows/prefabs/trees/em_tree1b_pre.prefab
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_on.anim
+2 kb                 assets/greyroadstudio/lowpolytreepack/prefabs/tree.prefab
+2 kb                 assets/museum/materials/kakaotalk_20221027_202551184_02.mat
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_oakleaves.mat
+73 kb                assets/low poly environment starter kit/source/meshes/terrains/mountain_2.fbx
+4 kb                 assets/low poly environment starter kit/prefabs/standard/terrains/mountain 1.prefab
+17 kb                assets/low poly environment starter kit/source/meshes/other/bush_3.fbx
+801 kb               assets/new terrain.asset
+296 kb               packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_tile_006.png
+14 kb                assets/simplelowpolynature/models/rock9.fbx
+1 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/fxt_blobshadow.png
+19 kb                assets/simplelowpolynature/models/rock5.fbx
+18 kb                assets/greyroadstudio/lowpolytreepack/models/rock02.fbx
+2 kb                 assets/simplelowpolynature/materials/treeredmat.mat
+2 kb                 assets/emaceart/free meadows/material/colorsheet.mat
+7 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/build it water no light.shader
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/gesture/4_ok.anim
+1 kb                 assets/naturestarterkit2/standard assets/effects/toonshading/shaders/toonbasic.shader
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_tile_002.mat
+4 kb                 assets/low poly environment starter kit/prefabs/standard/other/grass 3.prefab
+2 kb                 assets/display room/materials/architecture/white.mat
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landing_deep.anim
+32 kb                assets/emaceart/free meadows/meshes/em_rock01a.fbx
+1 kb                 assets/naturestarterkit2/standard assets/effects/toonshading/materials/toonbasic.mat
+534 kb               assets/museum/kakaotalk_20221127_204303293_18.jpg
+40 kb                assets/low poly environment starter kit/source/meshes/other/water plane.fbx
+2 kb                 assets/display room/materials/architecture/parquet_wood.mat
+17 kb                assets/low poly environment starter kit/source/meshes/other/bush_2.fbx
+2 kb                 assets/simplelowpolynature/materials/watermat.mat
+2 kb                 assets/museum/paint8.mat
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_mountain.mat
+232 b                assets/brokenvector/lowpolytreepack/textures/colorsheet tree normal.png
+88 kb                assets/low poly environment starter kit/source/meshes/terrains/mountain_3.fbx
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_oaktreetrunk.mat
+330 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/falling.anim
+52 kb                assets/greyroadstudio/lowpolytreepack/models/oaktree_leafless.fbx
+774 kb               assets/museum/kakaotalk_20221127_204303293_10.jpg
+51 kb                assets/emaceart/free meadows/meshes/em_rock02a.fbx
+618 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jump_idle.anim
+451 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/stamp.anim
+2 kb                 assets/museum/paint2.mat
+166 kb               assets/low poly free vegetation kit/textures/color pallet.png
+8 kb                 assets/display room/shaders/glass ase.shader
+124 kb               assets/emaceart/free meadows/meshes/em_tree3b.fbx
+68 kb                assets/museum/architecture.prefab
+359 kb               assets/emaceart/free meadows/meshes/em_tree2a.fbx
+75 kb                assets/greyroadstudio/lowpolytreepack/models/mountain.fbx
+24 kb                assets/mobiledepthwater/models/island.fbx
+940 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/run.anim
+347 kb               assets/addons/mg3d_food/watermelon.fbx
+77 kb                packages/zepeto.buildit.common/common/cooltime_commons/data/texture/ct_water_01.png
+11 kb                packages/zepeto.buildit.common/common/cooltime_commons/data/build it water plane.shader
+2 kb                 assets/greyroadstudio/lowpolytreepack/prefabs/pinetree.prefab
+11 kb                assets/simplelowpolynature/models/paddle.fbx
+2 kb                 assets/simplelowpolynature/materials/plantmat.mat
+2 mb                 assets/display room/textures/brick_wall_albedo.tga
+2 kb                 assets/greyroadstudio/lowpolytreepack/prefabs/pinetree05.prefab
+2 kb                 assets/mobiledepthwater/models/materials/material.001.mat
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/v2/move_walk.anim
+2 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/fxt_blobshadow.mat
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_pineneedles.mat
+2 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/eventsystem.prefab
+2 kb                 assets/display room/materials/architecture/walls 2.mat
+1014 kb              packages/zepeto.character.controller/runtime/_resources/animations/base/v2/idle.anim
+3 mb                 assets/display room/textures/wood_floor_ao.tga
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/fall_end.anim
+16 kb                packages/zepeto.buildit.common/common/cooltime_commons/data/texture/ct_noise_01.png
+9 kb                 assets/emaceart/free meadows/prefabs/trees/em_tree2a_pre.prefab
+3 mb                 assets/display room/textures/wall_plaster_albedo.tga
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_tile_004.mat
+428 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/hand_idle_01.anim
+31 kb                packages/com.unity.inputsystem/inputsystem/plugins/playerinput/defaultinputactions.inputactions
+2 kb                 assets/mymaterial/mountaingreen03.mat
+2 kb                 assets/greyroadstudio/lowpolytreepack/materials/mat_leaves.mat
+37 kb                assets/emaceart/free meadows/meshes/em_rock02d.fbx
+[resources]
+0 b                  assets/textmesh pro/resources
+[streamingAssets]

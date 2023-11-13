@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: e7b8a88530b7c0b4aad8e8ec4fbb609b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    Die_Line2_4 extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(col)
+    {\r\n        if (col.gameObject.layer == 20) {\r\n            col.enabled = false;\r\n           
+    col.transform.position = this.respawn4.transform.position;\r\n            col.enabled
+    = true;\r\n        }\r\n    }\r\n}\r\nexports.default = Die_Line2_4;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGllX0xpbmUyXzQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJEaWVfTGluZTJfNC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUdyRCxNQUFxQixXQUFZLFNBQVEscUNBQXFCO0lBSzFELGNBQWMsQ0FBQyxHQUFhO1FBQ3hCLElBQUksR0FBRyxDQUFDLFVBQVUsQ0FBQyxLQUFLLElBQUksRUFBRSxFQUFFO1lBQzVCLEdBQUcsQ0FBQyxPQUFPLEdBQUcsS0FBSyxDQUFDO1lBQ3BCLEdBQUcsQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxRQUFRLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztZQUMxRCxHQUFHLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQztTQUN0QjtJQUNMLENBQUM7Q0FFSjtBQWJELDhCQWFDIn0=","assetPath":"Assets/Chapter2/Die_Line2_4.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"respawn4","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Die_Line2_4","description":""},"isCompiled":true}'
+  typescriptHash: de978aa1b5ac18013bd818de57b9b58d
+  onlyWriteTrigger: 0

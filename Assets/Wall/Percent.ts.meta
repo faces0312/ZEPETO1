@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 46f18e9bd37507e48806a6c0049f9389
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    Percent extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(col)
+    {\r\n        if (col.gameObject.layer == 20) {\r\n            this.player_manager.percent++;\r\n       
+    }\r\n    }\r\n}\r\nexports.default = Percent;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGVyY2VudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlBlcmNlbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFJckQsTUFBcUIsT0FBUSxTQUFRLHFDQUFxQjtJQUl0RCxjQUFjLENBQUMsR0FBYTtRQUN4QixJQUFJLEdBQUcsQ0FBQyxVQUFVLENBQUMsS0FBSyxJQUFJLEVBQUUsRUFBRTtZQUM1QixJQUFJLENBQUMsY0FBYyxDQUFDLE9BQU8sRUFBRSxDQUFDO1NBQ2pDO0lBQ0wsQ0FBQztDQUVKO0FBVkQsMEJBVUMifQ==","assetPath":"Assets/Wall/Percent.ts","manifest":{"properties":[{"assembly":"","name":"player_manager","type":"C:/Users/82102/Desktop/ZEPETO/ZEPETO1/Assets/Player_Manager.default","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Percent","description":""},"isCompiled":true}'
+  typescriptHash: 470c891c6d0c6cd90e86e361a180f575
+  onlyWriteTrigger: 0
